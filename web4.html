@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/Estilos.css">
+        <link rel="shortcut icon" href="images/Mate.ico">
+        <title>Web 4 - Formulario</title>
+    </head>
+<body style="background-image: url(images/Fondo.jpg); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed;">
+    
+    <header class="barra">
+        <div class="navbar">
+            <img src="images/Unraf.png" width="250px" height="35px" style="float: left; margin: 10px;">
+            <a href="index.html">Portfolio</a>
+            <div class="dropdown">
+              <button class="dropbtn">Tp nº2 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="web1.html">Web 1 - Trivia</a>
+                <a href="web2.html">Web 2 - setInterval</a>
+                <a href="web3.html">Web 3 - Keypress</a>
+                <a href="web4.html">Web 4 - Formulario</a>
+                <a href="web5.html">Web 5 - Canvas</a>
+              </div>
+            </div> 
+          </div>
+        </header>
+        <h1 class="menu" style="padding-top: 40px;">FORMULARIO</h1>
+        <div class="cuestionario">
+        <div style="margin-bottom: 20px;">Agregue una concepto, luego una definición y por último un autor. (Este último es opcional.)</div>
+        <input type="text" id="concepto" placeholder="Ingrese un concepto"> <br>
+        <textarea placeholder="Ingrese la definición" id="definicion" class="areatexto"></textarea> <br>
+        <input type="text" id="autor" placeholder="Su nombre"> <br>
+        <button style="margin-left: 20%;" class="button" onclick="agregar()">Agregar</button>
+        
+        <div id="info" class="infocuadro" style="visibility: hidden;">
+        <div id="conagre"></div>
+        <div id="defagre"></div>
+        <div id="autagre" style="right: 0px; bottom: 0px; font-style: oblique; position: absolute;"></div>
+        </div>
+        </div>
+        <footer>
+            Juan Gonzalez: <a href="https://campusvirtual.unraf.edu.ar/user/profile.php?id=3983"> Campus </a> - <a href="https://www.facebook.com/fabri.gonzalez.58/"> Facebook </a>
+         </footer>
+</body>
+<script src="assets/js/scripts4.js"></script>
+</html>

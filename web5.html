@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/Estilos.css">
+        <link rel="shortcut icon" href="images/Mate.ico">
+        <title>Web 5 - Idea propia</title>
+    </head>
+<body style="background-image: url(images/Fondo.jpg); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed;">
+    
+    <header class="barra">
+        <div class="navbar">
+            <img src="images/Unraf.png" width="250px" height="35px" style="float: left; margin: 10px;">
+            <a href="index.html">Portfolio</a>
+            <div class="dropdown">
+              <button class="dropbtn">Tp nº2 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                  <a href="web1.html">Web 1 - Trivia</a>
+                  <a href="web2.html">Web 2 - setInterval</a>
+                  <a href="web3.html">Web 3 - Keypress</a>
+                  <a href="web4.html">Web 4 - Formulario</a>
+                  <a href="web5.html">Web 5 - Canvas</a>
+              </div>
+            </div> 
+          </div>
+        </header>
+        <h1 class="menu" style="padding-top: 40px;">IDEA PROPIA</h1>
+        <div class="cuestionario">
+          Mi idea propia consiste en la creación de un programa para dibujar. Para eso hare uso de Canvas. 
+          <button class="button"  onclick="window.location.reload()">Reiniciar pincel</button>
+        </div>
+        
+        <canvas id="paint" width="800" height="500" style="background-color: white; margin: 30px"></canvas>
+        <footer>
+            Juan Gonzalez: <a href="https://campusvirtual.unraf.edu.ar/user/profile.php?id=3983"> Campus </a> - <a href="https://www.facebook.com/fabri.gonzalez.58/"> Facebook </a>
+         </footer>
+</body>
+<script src="assets/js/scripts5.js"></script>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/Estilos.css">
+        <link rel="shortcut icon" href="images/Mate.ico">
+        <title>Web 1 - Trivia</title>
+    </head>
+<body style="background-image: url(images/Fondo.jpg); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed;">
+    
+    <header class="barra">
+        <div class="navbar">
+            <img src="images/Unraf.png" width="250px" height="35px" style="float: left; margin: 10px;">
+            <a href="index.html">Portfolio</a>
+            <div class="dropdown">
+              <button class="dropbtn">Tp nº2 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="web1.html">Web 1 - Trivia</a>
+                <a href="web2.html">Web 2 - setInterval</a>
+                <a href="web3.html">Web 3 - Keypress</a>
+                <a href="web4.html">Web 4 - Formulario</a>
+                <a href="web5.html">Web 5 - Canvas</a>
+              </div>
+              <div id="resultado" style="color:yellow; font-size: 40px; float:right;"></div>
+            </div> 
+          </div>
+        </header>
+    
+        <h1 class="menu" style="padding-top: 40px;">TRIVIA</h1>
+        <div class="cuestionario">
+        <h4>Pregunta 1: ¿Qué significan las siglas "MVC"?</h4>
+        <input type="radio" name="primera" value="1"> Muestra para visualizar contenido <br>
+        <input type="radio" name="primera" value="2"> Modelo Vista Controlador <br>
+        <input type="radio" name="primera" value="3"> Maquina Velocidad Control <br>
+        <div id="respuesta1" style="color: orange;"></div>
+        <div style="margin: 20px"></div>
+        <h4>Pregunta 2: ¿Cual de los siguientes no es un sistema operativo?</h4>   
+        <input type="radio" name="segunda" value="1"> Windows 10 <br>
+        <input type="radio" name="segunda" value="2"> Ubuntu <br>
+        <input type="radio" name="segunda" value="3"> Apple  <br>
+        <div id="respuesta2" style="color: orange;"></div>
+        <div style="margin: 20px"></div> 
+        <h4>Pregunta 3: ¿Cual de los siguientes no es una metodología agíl?</h4>   
+        <input type="radio" name="tercera" value="1"> XP <br>
+        <input type="radio" name="tercera" value="2"> Scrum <br>
+        <input type="radio" name="tercera" value="3"> Modelo cascada  <br>
+        <div id="respuesta3" style="color: orange;"></div>
+        <div style="margin: 20px"></div>     
+        <h4>Pregunta 4: ¿Cuál de los siguientes no es un formato de disquete?</h4>   
+        <input type="radio" name="cuarta" value="1"> 3 1/2" <br>
+        <input type="radio" name="cuarta" value="2"> 5 1/4 <br>
+        <input type="radio" name="cuarta" value="3"> 7 1/8  <br>
+        <div id="respuesta4" style="color: orange;"></div>
+        <div style="margin: 20px"></div>     
+        <h4>Pregunta 5: ¿Cual de los siguientes no es un lenguaje de programación?</h4>   
+        <input type="radio" name="quinta" value="1"> CSS <br>
+        <input type="radio" name="quinta" value="2"> Phyton <br>
+        <input type="radio" name="quinta" value="3"> Ruby <br>
+        <div id="respuesta5" style="color: orange;"></div>
+        <div style="margin: 20px"></div>  
+        <button style="margin-bottom: 40px;" onclick="trivia()" type="submit" class="button" >Listo</button>
+        </div>
+        <footer>
+            Juan Gonzalez: <a href="https://campusvirtual.unraf.edu.ar/user/profile.php?id=3983"> Campus </a> - <a href="https://www.facebook.com/fabri.gonzalez.58/"> Facebook </a>
+         </footer>
+</body>
+<script src="assets/js/scripts.js"></script>
+</html>
